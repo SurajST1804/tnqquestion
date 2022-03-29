@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#lookupBlock {
+  width: 100%;
+}
+
+#lookupBlock article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#lookupBlock article #textBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#textBlock label {
+  padding-right: 100px;
+}
+
+#lookupBlock article #charBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#charBlock label {
+  margin-right: 36px;
+}
+
+#charBlock input {
+  margin-right: 0px;
+  margin-top: 20px;
+  width: 243px;
+}
+#case {
+  display: flex;
+}
+
+#buttonBlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 66px;
+}
+
+#buttonBlock button {
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0057d8;
+  width: 120px;
+  color: #ffff;
+}
+
+#checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+#displayContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+#displayContent p {
+  background-color: lightgreen;
+  border-radius: 5px;
+}
